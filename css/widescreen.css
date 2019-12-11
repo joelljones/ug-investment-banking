@@ -1,0 +1,23 @@
+/* HERO */
+#hero .hero-content p {
+  max-width: 65%;
+}
+
+/* SERVICES */
+/* Align icons to left */
+#services .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* Position icons */
+#services .items .item i {
+  margin: 0 1.25rem 0 0;
+  align-self: center;
+}
+
+/* CONTACT */
+#contact .contact-form {
+  flex: 2;
+  /* flex-basis: 50%; */
+}

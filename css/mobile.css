@@ -1,0 +1,93 @@
+/* SERVICES */
+#services .container .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* Align icons to left */
+#services .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* Position icons */
+#services .items .item i {
+  margin: 0 1.25rem 0 0;
+  align-self: center;
+}
+
+/* SMARTPHONES */
+@media(max-width: 650px) {
+  .heading-lg {
+    font-size: 4rem;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  nav ul {
+    padding: 0.5rem;
+  }
+
+  #hero .hero-content {
+    margin-top: -2rem;
+  }
+
+  #about {
+    display: block;
+  }
+
+  #about h2,
+  #about p,
+  #contact h2,
+  #contact p {
+    text-align: center;
+  }
+
+  #clients .items img {
+    width: 75%;
+  }
+
+  #contact {
+    display: block;
+  }
+
+  #map {
+    height: 33.3vh;
+    border-top: var(--dark-color) solid 2.5px;
+  }
+}
+
+/* iPhone5 */
+@media(max-height: 568px) {
+  .heading-lg {
+    font-size: 2.5rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
+
+/* LANDSCAPE */
+@media screen and (orientation:landscape) {
+  .heading-lg {
+    font-size: 3.5rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
