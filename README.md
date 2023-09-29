@@ -9,3 +9,7 @@ Investment banking firm company website
 ## 🚀 How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
+
+## Learned:
+
+CSS Flexbox
